@@ -5,6 +5,7 @@
 }
 
 body {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +37,7 @@ body {
     margin-bottom: 60px;
     padding: 10px;
     box-shadow: 5px 5px 12px rgb(82, 78, 78);
+    align-items: center;
 }
 
 .btnContainer {
@@ -54,6 +56,18 @@ button {
     box-shadow: 5px 5px 12px rgb(82, 78, 78);
     width: 150px;
     height: 50px;
+   text-align: center;
+   gap: 30px;
+}
+
+#btnRock,
+#btnPaper,
+#btnScissor {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 20px;
+    margin: 50px 15px;
+    border-radius: 10px;
 }
 
 #btnRock {
@@ -78,3 +92,4 @@ button {
     align-items: center;
     margin-bottom: 50px;
 }
+   
