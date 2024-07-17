@@ -2,7 +2,7 @@ let humanChoice = "";
 let computerChoice = "";
 let humanScore = 0;
 let computerScore = 0;
-let roundCount = 0; // To keep track of the number of rounds played
+let roundCount = 0; 
 
 const btnRock = document.querySelector('#btnRock');
 const btnPaper = document.querySelector('#btnPaper');
@@ -38,7 +38,6 @@ function playRound() {
     }
 
     if (humanChoice === computerChoice) {
-        // It's a tie, no score change
     } else if (humanChoice === "ROCK" && computerChoice === "PAPER") {
         computerScore++;
     } else if (humanChoice === "ROCK" && computerChoice === "SCISSORS") {
@@ -65,7 +64,7 @@ function finalWinner() {
     } else {
         finalWinnerText = "It's a tie!";
     }
-    alert(finalWinnerText); // Use alert or another method to display the final result
+    alert(finalWinnerText);
 }
 
 function playGame() {
