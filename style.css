@@ -5,41 +5,55 @@
 }
 
 body {
-    background-color: #c9d392;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8f9472;
+    padding: 10vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: rgb(115, 173, 134);
+    border: 5px solid rgb(41, 66, 41);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgb(82, 78, 78);
+    width: 700px;
+    height: 500px;
 }
 
 .game-info-box {
-border: 3px solid rgb(0, 0, 0);
-border-radius: 10px;
-background-color: azure;
-min-width: 500px;
-height: 120px;
-text-align: center;
-font-size: 30px;
-margin-top: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(123, 167, 167);
+    min-width: 500px;
+    height: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 10px;
+    box-shadow: 5px 5px 12px rgb(82, 78, 78);
 }
 
 .btnContainer {
     display: flex;
-   text-align: center;
-   gap: 30px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
 }
 
-#btnRock,
-#btnPaper,
-#btnScissor {
+button {
     font-size: 20px;
     font-weight: 900;
     padding: 10px 20px;
-    margin: 50px 15px;
+    border: 3px solid rgb(41, 39, 39);
     border-radius: 10px;
+    box-shadow: 5px 5px 12px rgb(82, 78, 78);
+    width: 150px;
+    height: 50px;
 }
 
 #btnRock {
@@ -47,10 +61,20 @@ margin-top: 50px;
 }
 
 #btnPaper {
-    background-color: rgb(243, 234, 223);
+    background-color: rgb(204, 202, 199);
     border: 2px dashed red;
 }
 
 #btnScissor {
-    background-color: rgb(184, 180, 176);
+    background-color: rgb(146, 141, 137);
+}
+
+#instructions {
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
