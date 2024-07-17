@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c9d392;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-info-box {
+border: 3px solid rgb(0, 0, 0);
+border-radius: 10px;
+background-color: azure;
+min-width: 500px;
+height: 120px;
+text-align: center;
+font-size: 30px;
+margin-top: 50px;
+}
+
+.btnContainer {
+    display: flex;
+   text-align: center;
+   gap: 30px;
+}
+
+#btnRock,
+#btnPaper,
+#btnScissor {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 20px;
+    margin: 50px 15px;
+    border-radius: 10px;
+}
+
+#btnRock {
+    background-color: rgb(136, 96, 48);
+}
+
+#btnPaper {
+    background-color: rgb(243, 234, 223);
+    border: 2px dashed red;
+}
+
+#btnScissor {
+    background-color: rgb(184, 180, 176);
+}
